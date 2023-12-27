@@ -13,12 +13,12 @@ app.py # Main application file generate_data.py # Script to generate the data re
 1. Clone the repository:
 
 ```sh
-git clone <repository-url>
+git clone https://github.com/AnassBenzanzoun/flask-htmx-web-server.git
 ```
 
 2. Navigate into the cloned repository:
 
-cd <repository-name>
+cd flask-htmx-web-server
 
 3. Create a virtual enviroment and activate it:
 
