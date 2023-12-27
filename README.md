@@ -3,6 +3,7 @@
 This is a simple Flask application that allows users to search through a dataset loaded from a JSON file.
 it's a simple project designed to learn how htmx works and to test how many loaded data
 can htmx handle before breaking
+ps: tried with over 3k elements and still runs pretty smoothly.. it is also dynamic because the search bar is designed to query the backend each time the user type something
 
 ## Project Structure
 
