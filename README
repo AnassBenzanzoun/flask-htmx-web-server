@@ -28,3 +28,5 @@ pip install -r requirements.txt
 
 python app.py
 ```
+
+this repo also support docker if you have it installed
