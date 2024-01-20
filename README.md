@@ -1,5 +1,5 @@
 # Flask-HTMX Search App
-
+# -----------------------
 This application is a Flask-based web app that allows users to search through a dataset loaded from a JSON file. It's designed to demonstrate the capabilities of HTMX by testing how much loaded data it can handle before breaking.
 
 ## Project Structure
