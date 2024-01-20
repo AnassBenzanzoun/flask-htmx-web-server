@@ -1,5 +1,12 @@
+import os
+import subprocess
 from flask import Flask, render_template, request
 import json
+
+# Check if data.json exists and is not empty
+if not os.path.exists("data.json") or os.path.getsize("data.json") == 0:
+    # Call generate_data.py
+    subprocess.call(["python", "generate_data.py"])
 
 # Load the data
 with open("data.json", "r") as f:
@@ -21,7 +28,3 @@ def search():
     ]
 
     return render_template("search_result.html", results=filtered_results)
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
