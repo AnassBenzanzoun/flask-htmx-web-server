@@ -30,3 +30,5 @@ python app.py
 ```
 
 this repo also support docker if you have it installed
+
+docker compose up
