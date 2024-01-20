@@ -27,3 +27,23 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 python app.py
+```
+
+## Docker Setup and Running
+
+If you have Docker installed, you can use Docker to set up and run the application. Here are the steps:
+
+1. Build the Docker image:
+
+```sh
+docker build -t <image-name> .
+
+docker run -p 5000:5000 <image-name>
+```
+
+If you're using Docker Compose, you can start the application with a single command:
+
+```sh
+
+docker-compose up
+```
